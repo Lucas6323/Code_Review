@@ -80,6 +80,7 @@ main{
 .imgEU{
     width: 530px;
     border-radius: 40px;
+    border: 3px solid #1f4f2e;
 }
 
 /* CURIOSIDADES */
@@ -89,7 +90,7 @@ main{
 }
 
 #curiosidades h2{
-    color:#3c6a4f;
+    color:#3c6a4f9a;
 }
 
 #curiosidades ul{
@@ -107,8 +108,9 @@ main{
 
 /* RODAPÉ */
 footer{
-    background:#dcdcdc;
+    background:#f9e1e1;
     text-align:center;
     padding:10px;
     font-size:12px;
+    border: 2px solid #000000;
 }
