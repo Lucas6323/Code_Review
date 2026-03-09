@@ -1,0 +1,116 @@
+/* RESET */
+body{
+    margin:0;
+    background:#1e1e1e;
+}
+
+/* IMAGEM DO TOPO */
+.img1{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+
+/* ITALIA GRANDE SOBRE A IMAGEM */
+.cItalia{
+    position:absolute;
+    top:280px;
+    left:500px;
+    font-size:150px;
+    color:rgba(255, 255, 255, 0.281);
+    margin:0;
+    letter-spacing:10px;
+}
+
+/* HEADER */
+header{
+    position:absolute;
+    top:80px;
+    left:80px;
+    color:white;
+}
+
+header h1{
+    font-size:43px;
+    margin:0;
+    margin-top: -70px;
+    margin-left: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+header p{
+    margin-top:10px;
+    font-size:16px;
+    margin-left: -42px;
+}
+
+.main-sec{
+    background:#bcd6c8;
+    border-radius:40px 40px 0 0;
+    padding:50px;
+    margin-top:-60px;
+    position:relative;
+    z-index:2;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SOBRE */
+#aluno h2{
+    color:#1f4f2e;
+    margin-bottom:2px;
+    margin-top: -17px;
+}
+
+/* LUGAR */
+#lugar{
+    margin-top:-440px;
+    margin-left: 740px;
+    font-size: 23px;
+    max-width:600px;
+}
+
+#lugar h1{
+    color:#7aa88a;
+}
+
+.imgEU{
+    width: 530px;
+    border-radius: 40px;
+    border: 3px solid #1f4f2e;
+}
+
+/* CURIOSIDADES */
+#curiosidades{
+    text-align:center;
+    margin-top:120px;
+}
+
+#curiosidades h2{
+    color:#3c6a4f9a;
+}
+
+#curiosidades ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    padding:0;
+    margin-top:20px;
+}
+
+#curiosidades li{
+    width:220px;
+    font-size:14px;
+}
+
+/* RODAPÉ */
+footer{
+    background:#f9e1e1;
+    text-align:center;
+    padding:10px;
+    font-size:12px;
+    border: 2px solid #000000;
+}
