@@ -1,0 +1,156 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #DBDCD2;
+    position: relative;
+}
+
+hr {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+    height: 3px;
+    background-color: #000;
+    border: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    display: flex;
+    margin-left: 20px;
+}
+
+#top-icon {
+    margin-top: 37px;
+    margin-left: 30px;
+}
+
+#top-name {
+    margin-left: 5px;
+    margin-top: 32.5px;
+    font-size: 20px;
+}
+
+#tags {
+    display: flex;
+    position: relative;
+}
+
+#main-photo {
+    width: 500px;
+    height: 700px;
+    margin-left: 600px;
+    z-index: 0;
+}
+
+#top-text {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    margin-left: 10px;
+    top: 90px;
+    margin: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#ola {
+    font-size: 40px;
+}
+
+#tema {
+    font-size: 75px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-left: 10%;
+}
+
+#explicacao {
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: -15px;
+}
+
+
+h1 {
+    font-size: 64px;
+    margin-left: 25px;
+}
+
+ol{
+    cursor: pointer;
+}
+
+ul{
+    cursor: pointer;
+}
+
+li {
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.hover-box {
+    position: relative;
+    max-width: 900px;
+    display: none;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 2.5s ease;
+}
+
+.lista li:hover .hover-box {
+    opacity: 1;
+    pointer-events: auto;
+    display: flex;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.organization {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.imagens img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.hover-box p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-left: 40%;
+    font-size: 30px;
+}
