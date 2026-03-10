@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #35202F;
+}
+body {
+    background-color: #000000;
+}
+header, main section, footer{
+    background-color: #DBDADF;
+    border-radius: 0.7rem;
+    padding: 1rem 5rem;
+    margin: 5rem 15rem;
+    box-shadow: 3px 3px 15px 5px rgba(255, 90, 26, 0.8);
+    transition: transform 1s ease, box-shadow 0.3s ease;
+}
+
+header:hover, main section:hover, footer:hover{
+  transform: translateY(-10px);
+  transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 3px 3px 15px 5px rgba(255, 90, 26, 1);
+}
+
+#voltarIndex {
+    display: flex; 
+    color: #FF5A1A;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 0.8rem;
+    text-decoration: none; 
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none; 
+}
+/* Estilizar o Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    width: 30rem;
+}
+header div h1{
+    margin-bottom: 0;
+}
+header div p{
+    text-align: justify;
+}
+header img {
+    width: 23rem;
+    border-radius: 0.4rem;
+}
+
+/* Estilizando a primeira section da main */
+
+#aluno{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+#aluno img{
+    width: 10rem;
+}
+#aluno div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilizando a segunda section */
+
+#lugar>div{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+
+#infosLugar1{
+    width: 40%;
+}
+#infosLugar2{
+    width: 60%;
+}
+#lugar img {
+    width: 100%;
+    border-radius: 0.4rem;
+
+}
+
+/* Estilização da ultima seção da main */
+#curiosidades li {
+    margin: 0.8rem;
+}
+
+/* estilização do footer */
+footer {
+    text-align: center;
+}
